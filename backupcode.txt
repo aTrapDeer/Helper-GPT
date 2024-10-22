@@ -1,0 +1,132 @@
+import keyboard
+import os
+import pyautogui
+import cv2
+import numpy as np
+import requests
+import base64
+from openai import OpenAI
+from livekit.agents import llm
+from dotenv import load_dotenv
+import logging
+
+
+logger = logging.getLogger("ScreenHelp")
+logger.setLevel(logging.INFO)
+load_dotenv()
+openai_api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=openai_api_key)
+
+
+class AssistantFnc(llm.FunctionContext):
+    def __init__(self) -> None:
+        super().__init__()
+        @llm.ai_callable(description="Explain my screen for me.")
+        #Trigger the screen capture and explain 
+        def explain_concept(self, image_path, explainImageText):
+            # Capture screenshot
+            image = pyautogui.screenshot()
+            image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+            
+            # Save screenshot
+            in_memory_path = "in_memory.png"
+            cv2.imwrite(in_memory_path, image)
+            
+            # Get highlighted text (you'll need to implement this)
+            highlighted_text = get_highlighted_text()  # Implement this function
+            
+            # Call explain_with_ai with the correct parameters
+            explain_with_ai(in_memory_path, highlighted_text)
+
+
+
+# You'll need to implement these functions:
+def get_highlighted_text():
+    # Implement logic to get highlighted text from the screen
+    pass
+# Function to encode the image
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
+
+
+def explainConcept():
+    # Capture screenshot
+    image = pyautogui.screenshot()
+    image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+    
+    # Save screenshot
+    in_memory_path = "in_memory.png"
+    cv2.imwrite(in_memory_path, image)
+    
+    # Get highlighted text (you'll need to implement this)
+    highlighted_text = get_highlighted_text()  # Implement this function
+    
+    # Call explain_with_ai with the correct parameters
+    explain_with_ai(in_memory_path, highlighted_text)
+    # print the response
+    
+
+def explain_with_ai(image_path, explainImageText):
+    # Encode the image
+    base64_image = encode_image(image_path)
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {openai_api_key}"
+    }
+
+    payload = {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "As a teacher, Explain the following image to me. Keep it short and concise. Don't include an overall conclusion. Just explain the image."
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/png;base64,{base64_image}"
+                        }
+                    }
+                ]
+            }
+        ],
+        "max_tokens": 700
+    }
+
+    response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+
+    return response.json()["choices"][0]["message"]["content"]
+
+
+# Trigger Explain Concept Function
+def TriggerExplainConcept():
+    # Capture screenshot
+    image = pyautogui.screenshot()
+    image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+    
+    # Save screenshot
+    in_memory_path = "in_memory.png"
+    cv2.imwrite(in_memory_path, image)
+    
+    # Call explain_with_ai with the image path
+    explanation = explain_with_ai(in_memory_path, "Explain the following image to me:")
+    
+    # Print the explanation
+    print("\n--- Image Explanation ---")
+    print(explanation)
+    print("-------------------------\n")
+
+
+# Set up the keyboard listener
+if os.name == "nt":  # Check if the OS is Windows
+    
+
+    keyboard.add_hotkey('ctrl+alt+s', TriggerExplainConcept)
+    print("Press Ctrl + Alt + S to trigger the explanation.")
+    keyboard.wait()  # This will keep the script running and listening for the hotkey
+

@@ -1,0 +1,10 @@
+.env
+*.env
+/.env
+/myvenv/
+/myvenv/*
+/__pycache__/
+/__pycache__/*
+in_memory.png
+disc_image.png
+*.db
