@@ -5,7 +5,6 @@ import numpy as np
 import requests
 import base64
 from openai import OpenAI
-from livekit.agents import llm
 from dotenv import load_dotenv
 import logging
 
@@ -15,28 +14,22 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
-class AssistantFnc(llm.FunctionContext):
+class AssistantScreenFnc:
     def __init__(self) -> None:
-        super().__init__()
+        pass
 
-    @llm.ai_callable(description="Explain my screen for me.")
     async def explain_concept(self):
         logger.info("Explaining screen concept")
-        # Capture screenshot
         image = pyautogui.screenshot()
         image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
         
-        # Save screenshot
         in_memory_path = "in_memory.png"
         cv2.imwrite(in_memory_path, image)
         
-        # Call explain_with_ai with the correct parameters
         message = explain_with_ai(in_memory_path)
         return message
 
-    @llm.ai_callable(description="Get highlighted text from the screen.")
     async def get_highlighted_text(self):
-        # Implement logic to get highlighted text from the screen
         logger.info("Getting highlighted text")
         return "Highlighted text functionality not implemented yet."
 
@@ -84,3 +77,4 @@ def explain_with_ai(image_path):
     except requests.exceptions.RequestException as e:
         logger.error(f"Error in API request: {str(e)}")
         return f"An error occurred while processing the image: {str(e)}"
+

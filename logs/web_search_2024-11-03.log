@@ -1,0 +1,40 @@
+2024-11-03 14:16:41,997 - WebHelp - INFO - Starting web search for topic: Who's winning in the polls 2024
+2024-11-03 14:16:41,997 - WebHelp - INFO - Executing Google search for: Who's winning in the polls 2024
+2024-11-03 14:16:42,617 - WebHelp - INFO - Search completed successfully with 0 results
+2024-11-03 14:16:42,617 - WebHelp - INFO - Found 0 search results
+2024-11-03 14:16:42,618 - WebHelp - INFO - Starting AI explanation for search: Who's winning in the polls 2024
+2024-11-03 14:16:42,618 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-03 14:16:45,827 - WebHelp - INFO - Successfully received AI explanation
+2024-11-03 14:16:45,828 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-03 14:17:28,174 - WebHelp - INFO - Starting web search for topic: how to install Pie in Python 3
+2024-11-03 14:17:28,175 - WebHelp - INFO - Executing Google search for: how to install Pie in Python 3
+2024-11-03 14:17:28,565 - WebHelp - INFO - Search completed successfully with 0 results
+2024-11-03 14:17:28,566 - WebHelp - INFO - Found 0 search results
+2024-11-03 14:17:28,566 - WebHelp - INFO - Starting AI explanation for search: how to install Pie in Python 3
+2024-11-03 14:17:28,567 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-03 14:17:31,180 - WebHelp - INFO - Successfully received AI explanation
+2024-11-03 14:17:31,181 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-03 14:20:55,826 - WebHelp - INFO - Starting web search for topic: who is winning in the president polls October 2024
+2024-11-03 14:20:55,827 - WebHelp - INFO - Executing Google search for: who is winning in the president polls October 2024
+2024-11-03 14:20:56,387 - WebHelp - INFO - Search completed successfully with 7 results
+2024-11-03 14:20:56,388 - WebHelp - INFO - Found 7 search results
+2024-11-03 14:20:56,391 - WebHelp - INFO - Starting AI explanation for search: who is winning in the president polls October 2024
+2024-11-03 14:20:56,391 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-03 14:20:58,601 - WebHelp - INFO - Successfully received AI explanation
+2024-11-03 14:20:58,602 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-03 14:21:27,101 - WebHelp - INFO - Starting web search for topic: weather in Los Angeles, California today
+2024-11-03 14:21:27,102 - WebHelp - INFO - Executing Google search for: weather in Los Angeles, California today
+2024-11-03 14:21:27,657 - WebHelp - INFO - Search completed successfully with 7 results
+2024-11-03 14:21:27,659 - WebHelp - INFO - Found 7 search results
+2024-11-03 14:21:27,659 - WebHelp - INFO - Starting AI explanation for search: weather in Los Angeles, California today
+2024-11-03 14:21:27,660 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-03 14:21:31,358 - WebHelp - INFO - Successfully received AI explanation
+2024-11-03 14:21:31,360 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-03 14:22:08,665 - WebHelp - INFO - Starting web search for topic: weather in Los Angeles, California today
+2024-11-03 14:22:08,666 - WebHelp - INFO - Executing Google search for: weather in Los Angeles, California today
+2024-11-03 14:22:09,414 - WebHelp - INFO - Search completed successfully with 7 results
+2024-11-03 14:22:09,415 - WebHelp - INFO - Found 7 search results
+2024-11-03 14:22:09,415 - WebHelp - INFO - Starting AI explanation for search: weather in Los Angeles, California today
+2024-11-03 14:22:09,416 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-03 14:22:13,645 - WebHelp - INFO - Successfully received AI explanation
+2024-11-03 14:22:13,645 - WebHelp - INFO - Successfully generated AI explanation

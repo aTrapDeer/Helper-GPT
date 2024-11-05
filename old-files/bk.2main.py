@@ -7,9 +7,12 @@ import os
 load_dotenv()
 from livekit.agents import AutoSubscribe, JobContext, cli, llm, WorkerOptions
 from livekit.agents.voice_assistant import VoicePipelineAgent
-from livekit.plugins import openai, silero
+from livekit.plugins import openai, silero, deepgram
+from AgentFunctions.screenHelp import AssistantFnc
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
+deepgram_api_key = os.getenv("DEEPGRAM_API_KEY")
+
 name = "Andrew Rapier"
 agent_name = "Ciara"
 
@@ -29,7 +32,11 @@ async def entrypoint(ctx: JobContext):
 
     assistant = VoicePipelineAgent(
         vad=silero.VAD.load(),
-        stt=openai.STT(),
+        stt=deepgram.STT(
+            api_key=deepgram_api_key,
+            model="nova-2",
+            language="en"
+        ), # use Deepgram for speech to text
         llm=openai.LLM(model="gpt-4o-mini"),
         tts=openai.TTS(),
         chat_ctx=initial_ctx,
