@@ -1,0 +1,22 @@
+2024-11-05 00:24:00,932 - LocationHelp - INFO - Getting location info for: LAX
+2024-11-05 00:24:03,614 - LocationHelp - INFO - Getting location info for: Hollywood Palladium
+2024-11-05 00:33:48,658 - LocationHelp - INFO - Getting location info for: Hollywood Palladium
+2024-11-05 00:33:49,498 - LocationHelp - ERROR - Error getting location info: 'Location' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\13146\Documents\Coding\HelpMeGPT\AgentFunctions\locationHelp.py", line 82, in get_location_info
+    "mapquest_formatted": self._format_mapquest_address(location)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\13146\Documents\Coding\HelpMeGPT\AgentFunctions\locationHelp.py", line 94, in _format_mapquest_address
+    return location_info.get("address", "")
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'get'
+2024-11-05 00:35:41,426 - LocationHelp - INFO - Getting location info for: Hollywood Palladium
+2024-11-05 00:35:41,649 - LocationHelp - ERROR - Error getting location info: 'Location' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\13146\Documents\Coding\HelpMeGPT\AgentFunctions\locationHelp.py", line 82, in get_location_info
+    "mapquest_formatted": self._format_mapquest_address(location)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\13146\Documents\Coding\HelpMeGPT\AgentFunctions\locationHelp.py", line 94, in _format_mapquest_address
+    return location_info.get("address", "")
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'get'

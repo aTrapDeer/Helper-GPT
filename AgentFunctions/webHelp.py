@@ -5,7 +5,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import logging
 from googleapiclient.discovery import build
-from datetime import datetime
+from datetime import datetime, timedelta
 from .screenHelp import encode_image
 # Traversing Imports
 import time 
@@ -17,6 +17,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import tempfile
+import pytz
+import re
 
 
 
@@ -58,7 +60,10 @@ searchEngine = os.getenv("SEARCH_ENGINE_ID")
 class AssistantWebFnc:
     def __init__(self) -> None:
         self.last_search_results = []
+        self._cache = {}
+        self.client = OpenAI()
         self.setup_selenium()
+        self.timezone = pytz.timezone('America/Chicago')  # Set your timezone
         
     def setup_selenium(self):
         """Setup headless Chrome browser"""
@@ -70,12 +75,42 @@ class AssistantWebFnc:
         chrome_options.add_argument('--disable-dev-shm-usage')
         self.driver = webdriver.Chrome(options=chrome_options)
         
+    def process_date_keywords(self, topic: str) -> str:
+        """Convert relative date keywords to actual dates"""
+        current_date = datetime.now(self.timezone)
+        
+        # Dictionary of date keywords and their timedelta
+        date_keywords = {
+            r'\btoday\b': (current_date, ""),
+            r'\btomorrow\b': (current_date + timedelta(days=1), ""),
+            r'\byesterday\b': (current_date - timedelta(days=1), ""),
+            r'\blast week\b': (current_date - timedelta(weeks=1), ""),
+            r'\bnext week\b': (current_date + timedelta(weeks=1), ""),
+            r'\blast month\b': (current_date - timedelta(days=30), ""),
+            r'\bthis month\b': (current_date, ""),
+        }
+        
+        modified_topic = topic.lower()
+        for keyword, (date_obj, suffix) in date_keywords.items():
+            if re.search(keyword, modified_topic):
+                formatted_date = date_obj.strftime("%B %d, %Y")
+                modified_topic = re.sub(keyword, formatted_date + suffix, modified_topic)
+                logger.info(f"Converted date keyword to: {formatted_date}")
+                
+        return modified_topic
+
     async def search(self, topic: str):
         logger.info(f"Starting web search for topic: {topic}")
         try:
-            self.last_search_results = searchFunction(topic)
+            # Process any date keywords in the topic
+            processed_topic = self.process_date_keywords(topic)
+            logger.info(f"Processed topic with dates: {processed_topic}")
+            
+            self.last_search_results = searchFunction(processed_topic)
             logger.info(f"Found {len(self.last_search_results)} search results")
-            message = explain_with_ai(topic, self.last_search_results)
+            
+            # Pass both original and processed topics for context
+            message = explain_with_ai(processed_topic, self.last_search_results, original_query=topic)
             logger.info("Successfully generated AI explanation")
             return message
         except Exception as e:
@@ -164,6 +199,16 @@ class AssistantWebFnc:
             return await self.traverse_web(url)
         return "Sorry, that result number is not available."
 
+    async def cleanup(self):
+        """Cleanup resources"""
+        try:
+            self._cache.clear()
+            self.last_search_results.clear()
+            # Add any other cleanup needed
+            logger.info("Web assistant cleanup completed")
+        except Exception as e:
+            logger.error(f"Error during web assistant cleanup: {str(e)}")
+
 def searchFunction(inquiry):
     logger.info(f"Executing Google search for: {inquiry}")
     try:
@@ -202,7 +247,7 @@ def VideoExplainFunction(searchResults):
     return webInformation
 
 
-def explain_with_ai(inquiry, searchResults):
+def explain_with_ai(inquiry, searchResults, original_query=None):
     logger.info(f"Starting AI explanation for search: {inquiry}")
     
     # Convert searchResults to a more readable format
@@ -210,6 +255,9 @@ def explain_with_ai(inquiry, searchResults):
     for result in searchResults:
         formatted_text += f"\nTitle: {result['title']}\nSummary: {result['snippet']}\nLink: {result['link']}\n"
 
+    # Add date context to the system message
+    current_date = datetime.now().strftime("%B %d, %Y")
+    
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {openai_api_key}"
@@ -220,11 +268,11 @@ def explain_with_ai(inquiry, searchResults):
         "messages": [
             {
                 "role": "system",
-                "content": "You are a helpful assistant explaining web search results. Be concise but informative - try to interpret the information. Don't say the URLs outloud."
+                "content": f"You are a helpful assistant explaining web search results. Today's date is {current_date}. Be concise but informative - try to interpret the information. Don't say the URLs outloud."
             },
             {
                 "role": "user",
-                "content": f"Based on the search for '{inquiry}', here are the results:\n{formatted_text}\n\nPlease provide a clear summary of the most relevant information answering the inquiry."
+                "content": f"Based on the search for '{inquiry}' (original query: '{original_query if original_query else inquiry}'), here are the results:\n{formatted_text}\n\nPlease provide a clear summary of the most relevant information answering the inquiry, considering today's date is {current_date}."
             }
         ],
         "max_tokens": 2500
