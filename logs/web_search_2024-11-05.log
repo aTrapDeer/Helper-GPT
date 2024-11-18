@@ -83,3 +83,35 @@ TypeError: object ChatCompletion can't be used in 'await' expression
 2024-11-05 00:46:23,302 - WebHelp - INFO - Sending request to OpenAI API
 2024-11-05 00:46:24,644 - WebHelp - INFO - Successfully received AI explanation
 2024-11-05 00:46:24,645 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-05 01:24:43,586 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-05 01:24:43,587 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-05 01:24:47,042 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-05 01:25:25,446 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-05 01:25:36,737 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-05 01:27:08,457 - WebHelp - INFO - Starting web search for topic: stream Xbox Series X gameplay to PC for Twitch
+2024-11-05 01:27:08,459 - WebHelp - INFO - Processed topic with dates: stream xbox series x gameplay to pc for twitch
+2024-11-05 01:27:08,459 - WebHelp - INFO - Executing Google search for: stream xbox series x gameplay to pc for twitch
+2024-11-05 01:27:08,908 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-05 01:27:08,909 - WebHelp - INFO - Found 10 search results
+2024-11-05 01:27:08,910 - WebHelp - INFO - Starting AI explanation for search: stream xbox series x gameplay to pc for twitch
+2024-11-05 01:27:08,911 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-05 01:27:12,711 - WebHelp - INFO - Successfully received AI explanation
+2024-11-05 01:27:12,712 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-05 01:29:05,230 - WebHelp - INFO - Starting web search for topic: Xbox Remote Play availability 2023
+2024-11-05 01:29:05,231 - WebHelp - INFO - Processed topic with dates: xbox remote play availability 2023
+2024-11-05 01:29:05,232 - WebHelp - INFO - Executing Google search for: xbox remote play availability 2023
+2024-11-05 01:29:05,719 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-05 01:29:05,720 - WebHelp - INFO - Found 10 search results
+2024-11-05 01:29:05,720 - WebHelp - INFO - Starting AI explanation for search: xbox remote play availability 2023
+2024-11-05 01:29:05,721 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-05 01:29:08,818 - WebHelp - INFO - Successfully received AI explanation
+2024-11-05 01:29:08,820 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-05 01:29:08,834 - WebHelp - INFO - Starting web search for topic: how to use Xbox Remote Play on PC
+2024-11-05 01:29:08,835 - WebHelp - INFO - Processed topic with dates: how to use xbox remote play on pc
+2024-11-05 01:29:08,836 - WebHelp - INFO - Executing Google search for: how to use xbox remote play on pc
+2024-11-05 01:29:09,250 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-05 01:29:09,252 - WebHelp - INFO - Found 10 search results
+2024-11-05 01:29:09,254 - WebHelp - INFO - Starting AI explanation for search: how to use xbox remote play on pc
+2024-11-05 01:29:09,255 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-05 01:29:12,861 - WebHelp - INFO - Successfully received AI explanation
+2024-11-05 01:29:12,862 - WebHelp - INFO - Successfully generated AI explanation

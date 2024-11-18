@@ -1,3 +1,4 @@
+# python main.py connect --room playground-g6cs-Y0Kn
 # HelpMeGPT is a Python script powered by OpenAI's GPT and utilizing OpenCV to detect a user's screen and send images to the GPT for explaining the image.
 # This script will also utilize Text Highlighting to highlight the text on the screen and send it to the GPT for explaining the text.
 # Goal of this is to utilize the GPT to explain the image and text to the user and help them learn or understand the content.
