@@ -8,3 +8,11 @@
 in_memory.png
 disc_image.png
 *.db
+
+myenv/
+myenv/*
+/myenv/
+/myenv/*
+
+/logs/
+/logs/*

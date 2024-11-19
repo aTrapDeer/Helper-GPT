@@ -1,0 +1,576 @@
+2024-11-18 16:07:04,073 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:07:04,073 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:07:04,073 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:07:04,073 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:09:35,643 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:09:35,643 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:11:29,182 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:11:29,182 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:11:33,767 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:11:33,767 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:14:55,735 - WebHelp - INFO - Starting web search for topic: latest news Elon Musk Donald Trump
+2024-11-18 16:14:55,735 - WebHelp - INFO - Processed topic with dates: latest news elon musk donald trump
+2024-11-18 16:14:55,735 - WebHelp - INFO - Starting web search for topic: latest news Elon Musk Donald Trump
+2024-11-18 16:14:55,735 - WebHelp - INFO - Executing Google search for: latest news elon musk donald trump
+2024-11-18 16:14:55,735 - WebHelp - INFO - Processed topic with dates: latest news elon musk donald trump
+2024-11-18 16:14:55,735 - WebHelp - INFO - Executing Google search for: latest news elon musk donald trump
+2024-11-18 16:14:56,302 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:14:56,303 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:14:56,303 - WebHelp - INFO - Starting AI explanation for search: latest news elon musk donald trump
+2024-11-18 16:14:56,302 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:14:56,303 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:14:56,303 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:14:56,303 - WebHelp - INFO - Starting AI explanation for search: latest news elon musk donald trump
+2024-11-18 16:14:56,303 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:14:58,763 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:14:58,764 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:14:58,763 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:14:58,764 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:17:48,091 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:17:48,091 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:18:02,761 - WebHelp - INFO - Starting web search for topic: macOS screenshot record computer audio
+2024-11-18 16:18:02,762 - WebHelp - INFO - Processed topic with dates: macos screenshot record computer audio
+2024-11-18 16:18:02,761 - WebHelp - INFO - Starting web search for topic: macOS screenshot record computer audio
+2024-11-18 16:18:02,762 - WebHelp - INFO - Executing Google search for: macos screenshot record computer audio
+2024-11-18 16:18:02,762 - WebHelp - INFO - Processed topic with dates: macos screenshot record computer audio
+2024-11-18 16:18:02,762 - WebHelp - INFO - Executing Google search for: macos screenshot record computer audio
+2024-11-18 16:18:03,459 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:18:03,460 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:18:03,460 - WebHelp - INFO - Starting AI explanation for search: macos screenshot record computer audio
+2024-11-18 16:18:03,459 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:18:03,461 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:18:03,460 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:18:03,460 - WebHelp - INFO - Starting AI explanation for search: macos screenshot record computer audio
+2024-11-18 16:18:03,461 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:18:07,960 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:18:07,961 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:18:07,960 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:18:07,961 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:19:07,110 - WebHelp - INFO - Starting web search for topic: latest news on tariffs in the United States
+2024-11-18 16:19:07,110 - WebHelp - INFO - Processed topic with dates: latest news on tariffs in the united states
+2024-11-18 16:19:07,110 - WebHelp - INFO - Starting web search for topic: latest news on tariffs in the United States
+2024-11-18 16:19:07,111 - WebHelp - INFO - Executing Google search for: latest news on tariffs in the united states
+2024-11-18 16:19:07,110 - WebHelp - INFO - Processed topic with dates: latest news on tariffs in the united states
+2024-11-18 16:19:07,111 - WebHelp - INFO - Executing Google search for: latest news on tariffs in the united states
+2024-11-18 16:19:07,626 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:19:07,627 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:19:07,627 - WebHelp - INFO - Starting AI explanation for search: latest news on tariffs in the united states
+2024-11-18 16:19:07,626 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:19:07,627 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:19:07,627 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:19:07,627 - WebHelp - INFO - Starting AI explanation for search: latest news on tariffs in the united states
+2024-11-18 16:19:07,627 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:19:13,099 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:19:13,100 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:19:13,099 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:19:13,100 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:22:48,856 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:22:48,856 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:23:11,680 - WebHelp - INFO - Starting web search for topic: latest information on tariffs
+2024-11-18 16:23:11,681 - WebHelp - INFO - Processed topic with dates: latest information on tariffs
+2024-11-18 16:23:11,680 - WebHelp - INFO - Starting web search for topic: latest information on tariffs
+2024-11-18 16:23:11,681 - WebHelp - INFO - Executing Google search for: latest information on tariffs
+2024-11-18 16:23:11,681 - WebHelp - INFO - Processed topic with dates: latest information on tariffs
+2024-11-18 16:23:11,681 - WebHelp - INFO - Executing Google search for: latest information on tariffs
+2024-11-18 16:23:12,216 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:23:12,217 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:23:12,217 - WebHelp - INFO - Starting AI explanation for search: latest information on tariffs
+2024-11-18 16:23:12,217 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:23:12,216 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:23:12,217 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:23:12,217 - WebHelp - INFO - Starting AI explanation for search: latest information on tariffs
+2024-11-18 16:23:12,217 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:23:16,776 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:23:16,776 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:23:16,777 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:23:16,777 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:23:16,786 - WebHelp - INFO - Starting web search for topic: Joe Biden's involvement with US tariffs
+2024-11-18 16:23:16,786 - WebHelp - INFO - Processed topic with dates: joe biden's involvement with us tariffs
+2024-11-18 16:23:16,786 - WebHelp - INFO - Executing Google search for: joe biden's involvement with us tariffs
+2024-11-18 16:23:16,786 - WebHelp - INFO - Starting web search for topic: Joe Biden's involvement with US tariffs
+2024-11-18 16:23:16,786 - WebHelp - INFO - Processed topic with dates: joe biden's involvement with us tariffs
+2024-11-18 16:23:16,786 - WebHelp - INFO - Executing Google search for: joe biden's involvement with us tariffs
+2024-11-18 16:23:17,308 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:23:17,308 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:23:17,309 - WebHelp - INFO - Starting AI explanation for search: joe biden's involvement with us tariffs
+2024-11-18 16:23:17,309 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:23:17,308 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:23:17,308 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:23:17,309 - WebHelp - INFO - Starting AI explanation for search: joe biden's involvement with us tariffs
+2024-11-18 16:23:17,309 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:23:22,186 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:23:22,187 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:23:22,186 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:23:22,187 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:25:23,855 - WebHelp - INFO - Traversing webpage: https://summarizecn.com/
+2024-11-18 16:25:23,855 - WebHelp - INFO - Traversing webpage: https://summarizecn.com/
+2024-11-18 16:25:23,939 - WebHelp - ERROR - Error in normal traversal, attempting screenshot method: HTTPSConnectionPool(host='summarizecn.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-11-18 16:25:23,939 - WebHelp - INFO - Taking screenshot of https://summarizecn.com/
+2024-11-18 16:25:23,939 - WebHelp - ERROR - Error in normal traversal, attempting screenshot method: HTTPSConnectionPool(host='summarizecn.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-11-18 16:25:23,939 - WebHelp - INFO - Taking screenshot of https://summarizecn.com/
+2024-11-18 16:25:24,343 - WebHelp - ERROR - Error in screenshot method: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x0000000101219548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000101211d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x0000000100c809c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100c79dd8 cxxbridge1$string$len + 61600
+4   chromedriver                        0x0000000100c6bf04 cxxbridge1$string$len + 4556
+5   chromedriver                        0x0000000100c6d8bc cxxbridge1$string$len + 11140
+6   chromedriver                        0x0000000100c6c2b0 cxxbridge1$string$len + 5496
+7   chromedriver                        0x0000000100c6bb10 cxxbridge1$string$len + 3544
+8   chromedriver                        0x0000000100c6ba5c cxxbridge1$string$len + 3364
+9   chromedriver                        0x0000000100c697e8 core::str::slice_error_fail::ha0e52dbcb60e6bae + 59404
+10  chromedriver                        0x0000000100c6a320 core::str::slice_error_fail::ha0e52dbcb60e6bae + 62276
+11  chromedriver                        0x0000000100c82ec8 cxxbridge1$string$len + 98704
+12  chromedriver                        0x0000000100cfeaf0 cxxbridge1$string$len + 605624
+13  chromedriver                        0x0000000100cfe54c cxxbridge1$string$len + 604180
+14  chromedriver                        0x0000000100cb95c0 cxxbridge1$string$len + 321672
+15  chromedriver                        0x0000000100cba210 cxxbridge1$string$len + 324824
+16  chromedriver                        0x00000001011e54bc cxxbridge1$str$ptr + 3405788
+17  chromedriver                        0x00000001011e87dc cxxbridge1$str$ptr + 3418876
+18  chromedriver                        0x00000001011cc130 cxxbridge1$str$ptr + 3302480
+19  chromedriver                        0x00000001011e909c cxxbridge1$str$ptr + 3421116
+20  chromedriver                        0x00000001011bd888 cxxbridge1$str$ptr + 3242920
+21  chromedriver                        0x00000001012029c8 cxxbridge1$str$ptr + 3525864
+22  chromedriver                        0x0000000101202b44 cxxbridge1$str$ptr + 3526244
+23  chromedriver                        0x0000000101211a0c cxxbridge1$str$ptr + 3587372
+24  libsystem_pthread.dylib             0x00000001943ff2e4 _pthread_start + 136
+25  libsystem_pthread.dylib             0x00000001943fa0fc thread_start + 8
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='summarizecn.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/AgentFunctions/webHelp.py", line 128, in traverse_web
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='summarizecn.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/AgentFunctions/webHelp.py", line 159, in screenshot_and_analyze
+    self.driver.get(url)
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x0000000101219548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000101211d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x0000000100c809c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100c79dd8 cxxbridge1$string$len + 61600
+4   chromedriver                        0x0000000100c6bf04 cxxbridge1$string$len + 4556
+5   chromedriver                        0x0000000100c6d8bc cxxbridge1$string$len + 11140
+6   chromedriver                        0x0000000100c6c2b0 cxxbridge1$string$len + 5496
+7   chromedriver                        0x0000000100c6bb10 cxxbridge1$string$len + 3544
+8   chromedriver                        0x0000000100c6ba5c cxxbridge1$string$len + 3364
+9   chromedriver                        0x0000000100c697e8 core::str::slice_error_fail::ha0e52dbcb60e6bae + 59404
+10  chromedriver                        0x0000000100c6a320 core::str::slice_error_fail::ha0e52dbcb60e6bae + 62276
+11  chromedriver                        0x0000000100c82ec8 cxxbridge1$string$len + 98704
+12  chromedriver                        0x0000000100cfeaf0 cxxbridge1$string$len + 605624
+13  chromedriver                        0x0000000100cfe54c cxxbridge1$string$len + 604180
+14  chromedriver                        0x0000000100cb95c0 cxxbridge1$string$len + 321672
+15  chromedriver                        0x0000000100cba210 cxxbridge1$string$len + 324824
+16  chromedriver                        0x00000001011e54bc cxxbridge1$str$ptr + 3405788
+17  chromedriver                        0x00000001011e87dc cxxbridge1$str$ptr + 3418876
+18  chromedriver                        0x00000001011cc130 cxxbridge1$str$ptr + 3302480
+19  chromedriver                        0x00000001011e909c cxxbridge1$str$ptr + 3421116
+20  chromedriver                        0x00000001011bd888 cxxbridge1$str$ptr + 3242920
+21  chromedriver                        0x00000001012029c8 cxxbridge1$str$ptr + 3525864
+22  chromedriver                        0x0000000101202b44 cxxbridge1$str$ptr + 3526244
+23  chromedriver                        0x0000000101211a0c cxxbridge1$str$ptr + 3587372
+24  libsystem_pthread.dylib             0x00000001943ff2e4 _pthread_start + 136
+25  libsystem_pthread.dylib             0x00000001943fa0fc thread_start + 8
+
+2024-11-18 16:25:24,343 - WebHelp - ERROR - Error in screenshot method: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x0000000101219548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000101211d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x0000000100c809c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100c79dd8 cxxbridge1$string$len + 61600
+4   chromedriver                        0x0000000100c6bf04 cxxbridge1$string$len + 4556
+5   chromedriver                        0x0000000100c6d8bc cxxbridge1$string$len + 11140
+6   chromedriver                        0x0000000100c6c2b0 cxxbridge1$string$len + 5496
+7   chromedriver                        0x0000000100c6bb10 cxxbridge1$string$len + 3544
+8   chromedriver                        0x0000000100c6ba5c cxxbridge1$string$len + 3364
+9   chromedriver                        0x0000000100c697e8 core::str::slice_error_fail::ha0e52dbcb60e6bae + 59404
+10  chromedriver                        0x0000000100c6a320 core::str::slice_error_fail::ha0e52dbcb60e6bae + 62276
+11  chromedriver                        0x0000000100c82ec8 cxxbridge1$string$len + 98704
+12  chromedriver                        0x0000000100cfeaf0 cxxbridge1$string$len + 605624
+13  chromedriver                        0x0000000100cfe54c cxxbridge1$string$len + 604180
+14  chromedriver                        0x0000000100cb95c0 cxxbridge1$string$len + 321672
+15  chromedriver                        0x0000000100cba210 cxxbridge1$string$len + 324824
+16  chromedriver                        0x00000001011e54bc cxxbridge1$str$ptr + 3405788
+17  chromedriver                        0x00000001011e87dc cxxbridge1$str$ptr + 3418876
+18  chromedriver                        0x00000001011cc130 cxxbridge1$str$ptr + 3302480
+19  chromedriver                        0x00000001011e909c cxxbridge1$str$ptr + 3421116
+20  chromedriver                        0x00000001011bd888 cxxbridge1$str$ptr + 3242920
+21  chromedriver                        0x00000001012029c8 cxxbridge1$str$ptr + 3525864
+22  chromedriver                        0x0000000101202b44 cxxbridge1$str$ptr + 3526244
+23  chromedriver                        0x0000000101211a0c cxxbridge1$str$ptr + 3587372
+24  libsystem_pthread.dylib             0x00000001943ff2e4 _pthread_start + 136
+25  libsystem_pthread.dylib             0x00000001943fa0fc thread_start + 8
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='summarizecn.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/AgentFunctions/webHelp.py", line 128, in traverse_web
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='summarizecn.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x17d244bd0>: Failed to resolve 'summarizecn.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/AgentFunctions/webHelp.py", line 159, in screenshot_and_analyze
+    self.driver.get(url)
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "/Users/andrewrapier/Documents/Coding/Helper-GPT/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x0000000101219548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000101211d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x0000000100c809c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100c79dd8 cxxbridge1$string$len + 61600
+4   chromedriver                        0x0000000100c6bf04 cxxbridge1$string$len + 4556
+5   chromedriver                        0x0000000100c6d8bc cxxbridge1$string$len + 11140
+6   chromedriver                        0x0000000100c6c2b0 cxxbridge1$string$len + 5496
+7   chromedriver                        0x0000000100c6bb10 cxxbridge1$string$len + 3544
+8   chromedriver                        0x0000000100c6ba5c cxxbridge1$string$len + 3364
+9   chromedriver                        0x0000000100c697e8 core::str::slice_error_fail::ha0e52dbcb60e6bae + 59404
+10  chromedriver                        0x0000000100c6a320 core::str::slice_error_fail::ha0e52dbcb60e6bae + 62276
+11  chromedriver                        0x0000000100c82ec8 cxxbridge1$string$len + 98704
+12  chromedriver                        0x0000000100cfeaf0 cxxbridge1$string$len + 605624
+13  chromedriver                        0x0000000100cfe54c cxxbridge1$string$len + 604180
+14  chromedriver                        0x0000000100cb95c0 cxxbridge1$string$len + 321672
+15  chromedriver                        0x0000000100cba210 cxxbridge1$string$len + 324824
+16  chromedriver                        0x00000001011e54bc cxxbridge1$str$ptr + 3405788
+17  chromedriver                        0x00000001011e87dc cxxbridge1$str$ptr + 3418876
+18  chromedriver                        0x00000001011cc130 cxxbridge1$str$ptr + 3302480
+19  chromedriver                        0x00000001011e909c cxxbridge1$str$ptr + 3421116
+20  chromedriver                        0x00000001011bd888 cxxbridge1$str$ptr + 3242920
+21  chromedriver                        0x00000001012029c8 cxxbridge1$str$ptr + 3525864
+22  chromedriver                        0x0000000101202b44 cxxbridge1$str$ptr + 3526244
+23  chromedriver                        0x0000000101211a0c cxxbridge1$str$ptr + 3587372
+24  libsystem_pthread.dylib             0x00000001943ff2e4 _pthread_start + 136
+25  libsystem_pthread.dylib             0x00000001943fa0fc thread_start + 8
+
+2024-11-18 16:25:43,009 - WebHelp - INFO - Traversing webpage: https://www.cnn.com
+2024-11-18 16:25:43,009 - WebHelp - INFO - Traversing webpage: https://www.cnn.com
+2024-11-18 16:25:43,636 - WebHelp - INFO - Starting AI explanation for webpage: general overview
+2024-11-18 16:25:43,636 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:25:43,636 - WebHelp - INFO - Starting AI explanation for webpage: general overview
+2024-11-18 16:25:43,636 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:27:54,378 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:27:54,378 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:29:10,164 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:29:10,164 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:31:59,156 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:31:59,156 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:31:59,688 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:31:59,688 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:32:06,517 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:32:06,517 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:33:30,847 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:33:30,847 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:34:34,081 - WebHelp - INFO - Starting web search for topic: sales on the new Sonic the Hedgehog video game
+2024-11-18 16:34:34,082 - WebHelp - INFO - Processed topic with dates: sales on the new sonic the hedgehog video game
+2024-11-18 16:34:34,082 - WebHelp - INFO - Executing Google search for: sales on the new sonic the hedgehog video game
+2024-11-18 16:34:34,081 - WebHelp - INFO - Starting web search for topic: sales on the new Sonic the Hedgehog video game
+2024-11-18 16:34:34,082 - WebHelp - INFO - Processed topic with dates: sales on the new sonic the hedgehog video game
+2024-11-18 16:34:34,082 - WebHelp - INFO - Executing Google search for: sales on the new sonic the hedgehog video game
+2024-11-18 16:34:34,608 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:34:34,608 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:34:34,608 - WebHelp - INFO - Starting AI explanation for search: sales on the new sonic the hedgehog video game
+2024-11-18 16:34:34,608 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:34:34,608 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:34:34,608 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:34:34,608 - WebHelp - INFO - Starting AI explanation for search: sales on the new sonic the hedgehog video game
+2024-11-18 16:34:34,608 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:34:38,257 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:34:38,257 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:34:38,257 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:34:38,257 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:35:09,617 - WebHelp - INFO - Starting web search for topic: Sonic X Shadow Generations sales
+2024-11-18 16:35:09,618 - WebHelp - INFO - Processed topic with dates: sonic x shadow generations sales
+2024-11-18 16:35:09,618 - WebHelp - INFO - Executing Google search for: sonic x shadow generations sales
+2024-11-18 16:35:09,617 - WebHelp - INFO - Starting web search for topic: Sonic X Shadow Generations sales
+2024-11-18 16:35:09,618 - WebHelp - INFO - Processed topic with dates: sonic x shadow generations sales
+2024-11-18 16:35:09,618 - WebHelp - INFO - Executing Google search for: sonic x shadow generations sales
+2024-11-18 16:35:10,151 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:35:10,152 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:35:10,152 - WebHelp - INFO - Starting AI explanation for search: sonic x shadow generations sales
+2024-11-18 16:35:10,152 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:35:10,151 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:35:10,152 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:35:10,152 - WebHelp - INFO - Starting AI explanation for search: sonic x shadow generations sales
+2024-11-18 16:35:10,152 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:35:12,346 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:35:12,347 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:35:12,346 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:35:12,347 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:36:48,603 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:48,603 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:49,239 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:49,239 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:50,344 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:50,344 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:52,527 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:52,527 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:54,424 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:36:54,424 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:40:33,048 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:40:33,048 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:40:34,410 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:40:34,410 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:40:35,102 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:40:35,102 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:04,818 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:04,818 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:05,395 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:05,395 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:06,492 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:06,492 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:07,512 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:41:07,512 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 16:43:08,266 - WebHelp - INFO - Starting web search for topic: latest tech trends 2023
+2024-11-18 16:43:08,266 - WebHelp - INFO - Starting web search for topic: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Processed topic with dates: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Processed topic with dates: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Executing Google search for: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Executing Google search for: latest tech trends 2023
+2024-11-18 16:43:08,266 - WebHelp - INFO - Starting web search for topic: latest tech trends 2023
+2024-11-18 16:43:08,266 - WebHelp - INFO - Starting web search for topic: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Processed topic with dates: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Processed topic with dates: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Executing Google search for: latest tech trends 2023
+2024-11-18 16:43:08,267 - WebHelp - INFO - Executing Google search for: latest tech trends 2023
+2024-11-18 16:43:08,959 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:43:08,960 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:43:08,960 - WebHelp - INFO - Starting AI explanation for search: latest tech trends 2023
+2024-11-18 16:43:08,959 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:43:08,960 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:43:08,960 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:43:08,960 - WebHelp - INFO - Starting AI explanation for search: latest tech trends 2023
+2024-11-18 16:43:08,960 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:43:09,288 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:43:09,288 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:43:09,288 - WebHelp - INFO - Starting AI explanation for search: latest tech trends 2023
+2024-11-18 16:43:09,288 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:43:09,288 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 16:43:09,288 - WebHelp - INFO - Found 10 search results
+2024-11-18 16:43:09,288 - WebHelp - INFO - Starting AI explanation for search: latest tech trends 2023
+2024-11-18 16:43:09,288 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 16:43:13,318 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:43:13,319 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:43:13,318 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:43:13,319 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:43:13,822 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:43:13,824 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 16:43:13,822 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 16:43:13,824 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:45:19,609 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:45:19,609 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:45:28,598 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:45:28,598 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:46:50,253 - WebHelp - INFO - Starting web search for topic: recent tariff information regarding Donald Trump 2025
+2024-11-18 17:46:50,254 - WebHelp - INFO - Processed topic with dates: recent tariff information regarding donald trump 2025
+2024-11-18 17:46:50,253 - WebHelp - INFO - Starting web search for topic: recent tariff information regarding Donald Trump 2025
+2024-11-18 17:46:50,254 - WebHelp - INFO - Executing Google search for: recent tariff information regarding donald trump 2025
+2024-11-18 17:46:50,254 - WebHelp - INFO - Processed topic with dates: recent tariff information regarding donald trump 2025
+2024-11-18 17:46:50,254 - WebHelp - INFO - Executing Google search for: recent tariff information regarding donald trump 2025
+2024-11-18 17:46:50,949 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 17:46:50,949 - WebHelp - INFO - Found 10 search results
+2024-11-18 17:46:50,949 - WebHelp - INFO - Starting AI explanation for search: recent tariff information regarding donald trump 2025
+2024-11-18 17:46:50,949 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 17:46:50,949 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 17:46:50,949 - WebHelp - INFO - Found 10 search results
+2024-11-18 17:46:50,949 - WebHelp - INFO - Starting AI explanation for search: recent tariff information regarding donald trump 2025
+2024-11-18 17:46:50,949 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 17:46:53,635 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 17:46:53,635 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 17:46:53,636 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:46:53,636 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:47:39,744 - WebHelp - INFO - Starting web search for topic: Donald Trump 2025 tariff information
+2024-11-18 17:47:39,744 - WebHelp - INFO - Processed topic with dates: donald trump 2025 tariff information
+2024-11-18 17:47:39,745 - WebHelp - INFO - Executing Google search for: donald trump 2025 tariff information
+2024-11-18 17:47:39,744 - WebHelp - INFO - Starting web search for topic: Donald Trump 2025 tariff information
+2024-11-18 17:47:39,744 - WebHelp - INFO - Processed topic with dates: donald trump 2025 tariff information
+2024-11-18 17:47:39,745 - WebHelp - INFO - Executing Google search for: donald trump 2025 tariff information
+2024-11-18 17:47:40,251 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 17:47:40,251 - WebHelp - INFO - Found 10 search results
+2024-11-18 17:47:40,251 - WebHelp - INFO - Starting AI explanation for search: donald trump 2025 tariff information
+2024-11-18 17:47:40,251 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 17:47:40,251 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 17:47:40,251 - WebHelp - INFO - Found 10 search results
+2024-11-18 17:47:40,251 - WebHelp - INFO - Starting AI explanation for search: donald trump 2025 tariff information
+2024-11-18 17:47:40,251 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 17:47:42,661 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 17:47:42,661 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 17:47:42,662 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:47:42,662 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:47:46,784 - WebHelp - INFO - Starting web search for topic: Biden tariffs kept from Donald Trump
+2024-11-18 17:47:46,785 - WebHelp - INFO - Processed topic with dates: biden tariffs kept from donald trump
+2024-11-18 17:47:46,784 - WebHelp - INFO - Starting web search for topic: Biden tariffs kept from Donald Trump
+2024-11-18 17:47:46,785 - WebHelp - INFO - Executing Google search for: biden tariffs kept from donald trump
+2024-11-18 17:47:46,785 - WebHelp - INFO - Processed topic with dates: biden tariffs kept from donald trump
+2024-11-18 17:47:46,785 - WebHelp - INFO - Executing Google search for: biden tariffs kept from donald trump
+2024-11-18 17:47:47,380 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 17:47:47,381 - WebHelp - INFO - Found 10 search results
+2024-11-18 17:47:47,381 - WebHelp - INFO - Starting AI explanation for search: biden tariffs kept from donald trump
+2024-11-18 17:47:47,381 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 17:47:47,380 - WebHelp - INFO - Search completed successfully with 10 results
+2024-11-18 17:47:47,381 - WebHelp - INFO - Found 10 search results
+2024-11-18 17:47:47,381 - WebHelp - INFO - Starting AI explanation for search: biden tariffs kept from donald trump
+2024-11-18 17:47:47,381 - WebHelp - INFO - Sending request to OpenAI API
+2024-11-18 17:47:51,163 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 17:47:51,164 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:47:51,163 - WebHelp - INFO - Successfully received AI explanation
+2024-11-18 17:47:51,164 - WebHelp - INFO - Successfully generated AI explanation
+2024-11-18 17:51:02,813 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:51:02,813 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:55:06,457 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:55:06,457 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:55:08,633 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:55:08,633 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:55:12,739 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:55:12,739 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:57:51,563 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:57:51,563 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:58:02,340 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 17:58:02,340 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:06:51,476 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:06:51,476 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:06:53,136 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:06:53,136 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:06:54,074 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:06:54,074 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:13:03,645 - WebHelp - INFO - Web assistant cleanup completed
+2024-11-18 18:13:03,645 - WebHelp - INFO - Web assistant cleanup completed

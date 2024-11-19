@@ -18,6 +18,7 @@ class AgentFunctions(llm.FunctionContext):
         self.location_assistant = AssistantLocationFnc()
 
         self._processing = False
+        self.function_timeout = 60  # 60 seconds timeout
 
     async def _execute_with_lock(self, func, *args, **kwargs):
         """Execute function with lock to prevent concurrent operations"""
@@ -27,7 +28,14 @@ class AgentFunctions(llm.FunctionContext):
         try:
             self._processing = True
             async with self._lock:
-                return await func(*args, **kwargs)
+                try:
+                    return await asyncio.wait_for(
+                        func(*args, **kwargs),
+                        timeout=self.function_timeout
+                    )
+                except asyncio.TimeoutError:
+                    logger.warning(f"Function {func.__name__} is taking longer than {self.function_timeout} seconds")
+                    return await func(*args, **kwargs)
         finally:
             self._processing = False
 
@@ -97,9 +105,16 @@ class AgentFunctions(llm.FunctionContext):
         - Describe my screen"""
     )
     async def explain_screen(self):
-        return await self._execute_with_lock(
-            self.screen_assistant.explain_concept
-        )
+        try:
+            result = await self._execute_with_lock(
+                self.screen_assistant.explain_concept
+            )
+            if result:
+                return result
+            return "I'm having trouble processing the screen right now. Please try again."
+        except Exception as e:
+            logger.error(f"Error in explain_screen: {str(e)}")
+            return "I encountered an error while trying to explain the screen. Please try again."
 
     @llm.ai_callable(
         description="""List the most recent search results.
