@@ -16,3 +16,7 @@ myenv/*
 
 /logs/
 /logs/*
+myenv/
+myenv/*
+/myenv/
+/myenv/*
