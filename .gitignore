@@ -20,3 +20,5 @@ myenv/
 myenv/*
 /myenv/
 /myenv/*
+AgentFunctions/__pycache__
+AgentFunctions/*.pyc
